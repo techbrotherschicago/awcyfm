@@ -1,0 +1,82 @@
+* {
+    font-size: 14pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0.5pt;
+ 
+}
+
+ #head_wrapper {
+     background-image: linear-gradient(to bottom right, #8B008B, #1b03a3);
+     height:max-content;     border-radius: 5pt;
+     display: flex;
+}
+
+#head {
+    margin: auto;
+    align-items: center;
+    display: inline;
+}
+
+#head p {
+    line-height: 40pt;
+    text-align: center;
+    margin: auto;
+    display: block;
+    align-items: center;
+    color:silver;
+}
+
+#tb-logo {
+   font-family: 'Share Tech Mono', monospace, Calibri, sans-serif;
+    font-size: 1.5em;
+}
+
+#title {
+    font-size: 3.5em;
+    font-weight: bold;
+ }
+
+#body-wrapper {
+  margin: 5pt;
+  border-style:solid;
+  
+}
+
+.body-header {
+    font-family: 'Bebas Neue', Calibri, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    margin: 5pt;
+}
+
+.body-field {
+  text-align: justify;
+  margin: 5pt;
+}
+#icons {
+  display: flex;
+  justify-content: center;
+}
+
+#icons a img {
+  height: 50px;
+  width: 50px;
+  padding:40px;
+  background: none;
+}
+
+@media screen and (max-width: 1050px) {
+#icons a img {
+  height: 50px;
+  width: 50px;
+  padding:20px;
+}
+  }
+
+@media screen and (max-width: 780px) {
+  #icons a img {
+       width: 35px;
+       height:35px;
+       padding:8px;
+  }
+}
