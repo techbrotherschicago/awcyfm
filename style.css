@@ -1,7 +1,6 @@
 * {
     font-size: 14pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding:0.5pt;
     margin: 0;
  
 }
@@ -27,7 +26,7 @@
     display: block;
     align-items: center;
     color:silver;
-    padding: 8px 0 5px 0;
+    padding: 8px 0.5pt 5px 0.5pt;
 }
 
 #tb-logo {
