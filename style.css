@@ -7,8 +7,10 @@
 
  #head_wrapper {
      background-image: linear-gradient(to bottom right, #8B008B, #1b03a3);
-     height:max-content;     border-radius: 5pt;
+     height:max-content;     
+     border-radius: 5pt;
      display: flex;
+     margin: 0 4pt;
 }
 
 #head {
@@ -38,7 +40,7 @@
  }
 
 #body-wrapper {
-  margin: 5pt;
+  margin: 6pt;
   border-style:solid;
   
 }
