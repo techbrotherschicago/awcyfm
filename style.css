@@ -57,6 +57,9 @@
   text-align: justify;
   margin: 5pt;
 }
+iframe {
+margin: 0 0.5%;
+}
 #icons {
   display: flex;
   justify-content: center;
