@@ -128,19 +128,18 @@ iframe {
 }
 .link:hover:not(.active) {color: #2D3585;}
 
-@media screen and (max-width: 1250px) {  .live{width:250pt;}
+@media only screen and (max-width: 1250px) {  .live{width:250pt;}
   .streamcast {width:250pt;} }
 
-@media screen and (max-width: 1000px) {  .live{width:190pt;}
+@media only screen and (max-width: 1000px) {  .live{width:190pt;}
   .streamcast {width:190pt;} }
 
-@media screen and (max-width: 850px){
+@media only screen and (max-width: 850px){
  .live{float:none; display:block; width: inherit; margin-left:5pt; margin-right:5pt;}
   .streamcast {float:none; display:block; width:inherit; margin-left:5pt; margin-right:5pt;}
 }
 
-@media screen and (max-width: 600px) {
-  
+@media only screen and (max-width: 600px) {
   ul.topnav li.left {float: none;}
   ul.topnav li.right {float: none; text-align:center;}
    ul.topnav li.logo {float: none; text-align:center;}
