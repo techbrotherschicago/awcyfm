@@ -1,0 +1,154 @@
+* {
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #775AC8;
+}
+
+.tab {
+  font-family: 'Share Tech Mono', Calibri, sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+ul.topnav li.right a {
+  display: inline-block;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li.logo a {
+  font-size: 20pt;
+  display: inline-block;
+  color: silver;
+  text-align: center;
+  text-decoration:none;
+  padding: 14px 25px;
+  font-style: Noto Sans, sans-serif;
+}
+
+li.logo a b i{font-size: 20pt; font-style: Noto Sans, sans-serif;}
+
+img.icon {
+  height: 25px;
+  width: 25px;
+  filter:brightness(0.5);
+}
+
+ul.topnav li.left a:hover:not(.active) {color: silver;}
+
+ul.topnav li.logo a:hover:not(.active) {color: #DD7AF4}
+
+ul.topnav li a img.icon:hover:not(.active) {filter: brightness(1);}
+
+ li.right{float: right; margin:auto;}
+
+ li.left {float: left;}
+
+ li.logo {float: left;}
+
+div.head_wrapper {
+  margin: 0pt;
+  padding: 0;
+  overflow: auto;
+  background: black;
+  
+}
+
+
+div.message {
+  float: left;
+  padding: 50pt;
+  width: 50%;
+}
+
+p.logo a {
+  font-size: 50pt;
+  display: inline-block;
+  color: silver;
+  text-align: center;
+  text-decoration:none;
+  font-style: Noto Sans, sans-serif;
+}
+
+p.logo a b i{font-size: 50pt; font-style: Noto Sans, sans-serif;}
+
+
+.message .tb_logo {
+  font-size: 18pt;}
+
+
+.tb_logo {
+  color: silver;
+  font-family:'Share Tech Mono', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.desc {
+  color:silver;
+}
+
+div.img_wrapper {
+    width: 300pt;
+    height: 300pt;
+    float: none;
+    margin: auto;
+    overflow: hidden;
+}
+
+img.bulb {
+  margin: -10px 0px 0px -180px;
+}
+
+.second {
+  background: linear-gradient(to bottom right, #242c54, #4D3A81);
+  overflow: auto;
+}
+
+.second_text {
+  width: 45%;
+  display: inline-block;
+  margin-left:50pt;
+  margin-top:50pt;
+}
+
+.second_text .show_d {
+  color:white;
+  line-height:200%;
+  text-align: justify;
+  margin: 0;
+}
+p.show_d a.tb_logo {
+  font-size: 15pt;
+}
+
+.second iframe {
+  float: right;
+  margin: 50pt;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  ul.topnav li.left {float: none;}
+  ul.topnav li.right {float: none; text-align:center;}
+  ul.topnav li.logo {float: none; text-align:center;}
+  p.logo {font-size:38pt;}
+  div.message{float: none; text-align: center; display: block; padding: 0; width:inherit;}
+  div.head_wrapper {overflow: hidden; display:block;}
+    .img_wrapper {float: none; padding: 0pt;}
+  div.second {overflow: hidden; display:block;}
+  div.second_text {padding:10pt; width:inherit; display:block; float:none; margin-left:0; margin-top:0;}
+  div.second iframe {width:inherit; display:block; margin:auto; float:none;}
+}

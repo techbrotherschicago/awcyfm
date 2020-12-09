@@ -1,0 +1,130 @@
+* {
+    font-size: 14pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+ 
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #775AC8;
+}
+
+ul.topnav li.left a.tab {
+  font-family: Share Tech Mono;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+ul.topnav li.right a {
+  display: inline-block;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+ul.topnav li.logo a{
+  font-size: 20pt;
+  display: inline-block;
+  color: silver;
+  text-align: center;
+  text-decoration:none;
+  padding: 14px 25px;
+  font-style: Noto Sans, sans-serif;
+}
+
+ul.topnav li.logo a b i{font-size: 20pt; font-style: Noto Sans, sans-serif;}
+
+img.icon {
+  height: 25px;
+  width: 25px;
+  filter:brightness(0.5);
+}
+
+ul.topnav li.left a:hover:not(.active) {color: silver;}
+
+ul.topnav li.logo a:hover:not(.active) {color: #DD7AF4}
+
+ul.topnav li a img.icon:hover:not(.active) {filter: brightness(1);}
+
+ul.topnav a.active {background-color: #929292;}
+
+ul.topnav li.right{float: right; margin:auto;}
+
+ul.topnav li.left {float: left;}
+
+ul.topnav li.logo {float: left;}
+
+
+
+.contact {
+  width:100%;
+  background: black;
+  overflow: auto;
+}
+
+
+.body_header {
+    font-family: 'Bebas Neue', Calibri, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    margin: 5pt;
+    color:white;
+    margin-top:20pt;
+    margin-bottom:10pt;
+}
+
+.box_header {
+    font-family: 'Bebas Neue', Calibri, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    margin: 4pt;
+}
+
+.body_field {
+  text-align: justify;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+iframe {
+  width:100%;
+  height: 1144px;
+}
+
+.social_media {
+  background: #CC32FF;
+  display: block;
+  padding: 15pt;
+  width: 45%;
+  text-align: justify;
+  background: #CC32FF;
+  border-radius: 5pt;
+  margin-top: 40pt;
+  margin-bottom:40pt;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover:not(.active) {color: #2D3585;}
+
+@media screen and (max-width: 600px) {
+  
+  ul.topnav li.left {float: none;}
+  ul.topnav li.right {float: none; text-align:center;}
+   ul.topnav li.logo {float: none; text-align:center;}
+  iframe {margin-left:auto; margin-right: auto;}
+  .social_media {width:80%;}
+}
