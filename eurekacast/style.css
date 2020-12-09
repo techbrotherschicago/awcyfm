@@ -141,7 +141,7 @@ p.show_d a.tb_logo {
 
 
 @media only screen and (max-width: 600px) {
-  
+ .desc {font-size:12pt;} 
   ul.topnav li.left {float: none;}
   ul.topnav li.right {float: none; text-align:center;}
   ul.topnav li.logo {float: none; text-align:center;}
