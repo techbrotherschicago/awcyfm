@@ -63,10 +63,9 @@ ul.topnav li.logo {float: left;}
 
 
 div.full_body {
-  background-color: black;
-  margin: 0;
-  display: inline-block;
-  overflow:hidden;
+  width:100%;
+  background: black;
+  overflow: auto;
 }
 
 
