@@ -35,10 +35,10 @@ li.logo a {
   text-align: center;
   text-decoration:none;
   padding: 14px 25px;
-  font-style: Noto Sans, sans-serif;
+  font-style: 'Trebuchet MS', san-serif;
 }
 
-li.logo a b i{font-size: 20pt; font-style: Noto Sans, sans-serif;}
+li.logo a b i{font-size: 20pt; font-style: 'Trebuchet MS', san-serif;}
 
 img.icon {
   height: 25px;
