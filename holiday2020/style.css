@@ -122,7 +122,7 @@ ul.topnav li.logo {float: left; }
     div.second_text {padding:10pt; width:inherit; display:block; float:none; margin-left:0; margin-top:0;}
     div.second iframe {width:inherit; display:block; margin-left:auto; margin-right:auto; margin-top:10pt; margin-bottom:30pt; float:none;}
     .letter {width: auto; margin-left:5pt; margin-right:5pt; padding:10pt; background: #eee5de;} 
-    .letter_text {margin-left:5pt; margin-right:5pt; margin-top:10pt; margin-bottom:10pt;} 
+    .letter_text {margin-left:5pt; margin-right:5pt; margin-top:15pt; margin-bottom:15pt;} 
     .holday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
   }
   
