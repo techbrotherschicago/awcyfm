@@ -23,6 +23,16 @@ ul.topnav li.left a.tab {
   text-transform: uppercase;
 }
 
+ul.topnav li.hol a {
+  font-family: Share Tech Mono;
+  display: block;
+  color:  #59D430;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
 ul.topnav li.right a {
   display: inline-block;
   padding: 14px 20px;
@@ -46,7 +56,7 @@ img.icon {
   width: 25px;
   filter:brightness(0.5);
 }
-
+ul.topnav li a.hol:hover:not(.active) {color: #DD7AF4;}
 ul.topnav li.left a:hover:not(.active) {color: silver;}
 
 ul.topnav li.logo a:hover:not(.active) {color: #DD7AF4}
@@ -59,9 +69,9 @@ ul.topnav li.right{float: right; margin:auto;}
 
 ul.topnav li.left {float: left;}
 
-ul.topnav li.logo {float: left;}
+ul.topnav li.logo {float: left; }
 
-
+ul.topnav li.hol {float: left; }
 
 .contact {
   width:100%;
@@ -127,4 +137,6 @@ iframe {
    ul.topnav li.logo {float: none; text-align:center;}
   iframe {margin-left:auto; margin-right: auto;}
   .social_media {width:80%;}
+  ul.topnav li.hol {float: none; text-align:center;}
+
 }

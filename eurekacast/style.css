@@ -12,10 +12,20 @@ ul.topnav {
   background: #775AC8;
 }
 
-.tab {
-  font-family: 'Share Tech Mono', Calibri, sans-serif;
+ul.topnav li.left a.tab {
+  font-family: Share Tech Mono;
   display: block;
   color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+ul.topnav li.hol a {
+  font-family: Share Tech Mono;
+  display: block;
+  color:  #59D430;
   text-align: center;
   padding: 20px 20px;
   text-decoration:none;
@@ -28,7 +38,7 @@ ul.topnav li.right a {
   text-decoration: none;
 }
 
-li.logo a {
+ul.topnav li.logo a{
   font-size: 20pt;
   display: inline-block;
   color: silver;
@@ -38,25 +48,29 @@ li.logo a {
   font-family: 'Trebuchet MS', san-serif;
 }
 
-li.logo a b i{font-size: 20pt; font-family: 'Trebuchet MS', san-serif;}
+ul.topnav li.logo a b i{font-size: 20pt; font-style: 'Trebuchet MS', san-serif;}
 
 img.icon {
   height: 25px;
   width: 25px;
   filter:brightness(0.5);
 }
-
+ul.topnav li a.hol:hover:not(.active) {color: #DD7AF4;}
 ul.topnav li.left a:hover:not(.active) {color: silver;}
 
 ul.topnav li.logo a:hover:not(.active) {color: #DD7AF4}
 
 ul.topnav li a img.icon:hover:not(.active) {filter: brightness(1);}
 
- li.right{float: right; margin:auto;}
+ul.topnav a.active {background-color: #929292;}
 
- li.left {float: left;}
+ul.topnav li.right{float: right; margin:auto;}
 
- li.logo {float: left;}
+ul.topnav li.left {float: left;}
+
+ul.topnav li.logo {float: left; }
+
+ul.topnav li.hol {float: left; }
 
 div.head_wrapper {
   margin: 0pt;
@@ -159,4 +173,6 @@ p.show_d a.tb_logo {
   div.second {overflow: hidden; display:block;}
   div.second_text {padding:10pt; width:inherit; display:block; float:none; margin-left:0; margin-top:0;}
   div.second iframe {width:inherit; display:block; margin-left:auto; margin-right:auto; margin-top:10pt; margin-bottom:30pt; float:none;}
+  ul.topnav li.hol {float: none; text-align:center;}
+
 }

@@ -22,6 +22,16 @@ ul.topnav li.left a.tab {
   text-transform: uppercase;
 }
 
+ul.topnav li.hol a {
+  font-family: Share Tech Mono;
+  display: block;
+  color:  #59D430;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
 ul.topnav li.right a {
   display: inline-block;
   padding: 14px 20px;
@@ -45,7 +55,7 @@ img.icon {
   width: 25px;
   filter:brightness(0.5);
 }
-
+ul.topnav li a.hol:hover:not(.active) {color: #DD7AF4;}
 ul.topnav li.left a:hover:not(.active) {color: silver;}
 
 ul.topnav li.logo a:hover:not(.active) {color: #DD7AF4}
@@ -59,6 +69,8 @@ ul.topnav li.right{float: right; margin:auto;}
 ul.topnav li.left {float: left;}
 
 ul.topnav li.logo {float: left; }
+
+ul.topnav li.hol {float: left; }
 
 .banner_frame {
   height: 220pt;
@@ -85,8 +97,10 @@ ul.topnav li.logo {float: left; }
   display:block;
   text-align:center;
 }
+
+
 .header {
-  font-size: 60pt;
+  font-size: 40pt;
   font-family: "Share Tech";
   padding: 18pt 5pt;
   font-style: italic;
@@ -95,18 +109,23 @@ ul.topnav li.logo {float: left; }
   text-align:center;
   display: block;
 }
-.top_img {
-  height: 140pt;
-  margin:5pt;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
+
+.time_header {
+  font-size: 30pt;
+  color: silver;
+
+}
+
+#demo {
+  font-size: 40pt;
+  color: silver;
+
 }
 
 
 
 .holiday {
-  background-image: linear-gradient( to bottom, #297C06, #DD7AF4,  #59D430, #C8006F);
+  background-image: linear-gradient( to bottom, #297C06,  #59D430, #C8006F);
   width:100%;
   overflow:auto;
 }
@@ -153,7 +172,7 @@ ul.topnav li.logo {float: left; }
     div.second iframe {width:inherit; display:block; margin-left:auto; margin-right:auto; margin-top:10pt; margin-bottom:30pt; float:none;}  
     .letter {width: 700px;background: #eee5de;} 
     .letter_text {margin-right:10pt; margin-left:10pt;} 
-    .holday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
+    .holiday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
      }
 
 
@@ -161,6 +180,7 @@ ul.topnav li.logo {float: left; }
     ul.topnav li.left {float: none;}
     ul.topnav li.right {float: none; text-align:center;}
     ul.topnav li.logo {float: none; text-align:center;}
+    ul.topnav li.hol {float: none; text-align:center;}
     p.logo {font-size:38pt;}
     div.message{float: none; text-align: center; display: block; padding: 0; width:inherit;}
     div.head_wrapper {overflow: hidden; display:block;}
@@ -170,13 +190,10 @@ ul.topnav li.logo {float: left; }
     div.second iframe {width:inherit; display:block; margin-left:auto; margin-right:auto; margin-top:10pt; margin-bottom:30pt; float:none;}
     .letter {width: auto; margin-left:5pt; margin-right:5pt; padding:10pt; background: #eee5de;} 
     .letter_text {margin-left:5pt; margin-right:5pt; margin-top:15pt; margin-bottom:15pt;} 
-    .holday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
+    .holiday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
     .banner {
       margin-top: 0;
     }
-    iframe {
-      width: 369px; 
-      height: 121px;
-    }
+
   }
   
