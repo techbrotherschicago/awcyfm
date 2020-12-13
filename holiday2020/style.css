@@ -156,7 +156,7 @@ ul.topnav li.hol {float: left; }
       line-height: 25pt;
     }
 
-   
+ 
 
     .link {
       font-weight: bold;
@@ -171,6 +171,7 @@ ul.topnav li.hol {float: left; }
     div.second {overflow: hidden; display:block;}
     div.second_text {padding:10pt; width:inherit; display:block; float:none; margin-left:0; margin-top:0;}
     div.second iframe {width:inherit; display:block; margin-left:auto; margin-right:auto; margin-top:10pt; margin-bottom:30pt; float:none;}  
+  
     .letter {width: 700px;background: #eee5de;} 
     .letter_text {margin-right:10pt; margin-left:10pt;} 
     .holiday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
