@@ -60,6 +60,51 @@ ul.topnav li.left {float: left;}
 
 ul.topnav li.logo {float: left; }
 
+.banner_frame {
+  height: 220pt;
+  overflow: hidden;
+  width:100%;
+  display:block;
+
+}
+
+.banner {
+  width:100%;
+  margin-top: -10%;
+}
+.top_block {
+  background: #4D3A81;
+  display: block;
+  padding: 15pt;
+  width: 90%;
+  border-radius: 5pt;
+  margin-top: 40pt;
+  margin-bottom:40pt;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  text-align:center;
+}
+.header {
+  font-size: 60pt;
+  font-family: "Share Tech";
+  padding: 18pt 5pt;
+  font-style: italic;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+  display: block;
+}
+.top_img {
+  height: 140pt;
+  margin:5pt;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+
+
 .holiday {
   background-image: linear-gradient( to bottom, #297C06, #DD7AF4,  #59D430, #C8006F);
   width:100%;
@@ -109,7 +154,9 @@ ul.topnav li.logo {float: left; }
     .letter {width: 700px;background: #eee5de;} 
     .letter_text {margin-right:10pt; margin-left:10pt;} 
     .holday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
-  }
+     }
+
+
   @media only screen and (max-width: 800px) {
     ul.topnav li.left {float: none;}
     ul.topnav li.right {float: none; text-align:center;}
@@ -124,5 +171,12 @@ ul.topnav li.logo {float: left; }
     .letter {width: auto; margin-left:5pt; margin-right:5pt; padding:10pt; background: #eee5de;} 
     .letter_text {margin-left:5pt; margin-right:5pt; margin-top:15pt; margin-bottom:15pt;} 
     .holday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
+    .banner {
+      margin-top: 0;
+    }
+    iframe {
+      width: 369px; 
+      height: 121px;
+    }
   }
   
