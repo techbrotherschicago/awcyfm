@@ -81,6 +81,7 @@ div.head_wrapper {
 }
 
 
+
 div.message {
   float: left;
   padding: 50pt;
@@ -129,6 +130,16 @@ img.bulb {
 .second {
   background: linear-gradient(to bottom right, #242c54, #4D3A81);
   overflow: auto;
+}
+
+p.body_header{
+  font-family: Share Tech Mono;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration:none;
+  text-transform: uppercase;
 }
 
 .second_text {
