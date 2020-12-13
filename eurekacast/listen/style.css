@@ -145,12 +145,9 @@ iframe {
 @media only screen and (max-width: 1000px) {  .live{width:190pt;}
   .streamcast {width:190pt;} }
 
-@media only screen and (max-width: 850px){
- .live{float:none; display:block; width: inherit; margin-left:5pt; margin-right:5pt;}
-  .streamcast {float:none; display:block; width:inherit; margin-left:5pt; margin-right:5pt;}
-}
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 900px) {
   ul.topnav li.left {float: none;}
   ul.topnav li.right {float: none; text-align:center;}
    ul.topnav li.logo {float: none; text-align:center;}

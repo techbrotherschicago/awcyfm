@@ -130,7 +130,7 @@ iframe {
 
 .link:hover:not(.active) {color: #2D3585;}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   
   ul.topnav li.left {float: none;}
   ul.topnav li.right {float: none; text-align:center;}

@@ -111,7 +111,7 @@ ul.topnav li.hol {float: left; }
 }
 
 .time_header {
-  font-size: 30pt;
+  font-size: 25pt;
   color: silver;
 
 }
@@ -176,7 +176,7 @@ ul.topnav li.hol {float: left; }
      }
 
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 900px) {
     ul.topnav li.left {float: none;}
     ul.topnav li.right {float: none; text-align:center;}
     ul.topnav li.logo {float: none; text-align:center;}
@@ -193,6 +193,9 @@ ul.topnav li.hol {float: left; }
     .holiday { background-image: linear-gradient( to bottom, #59D430, #DD7AF4);}
     .banner {
       margin-top: 0;
+    }
+    .top_block {
+      width: auto; margin-left:5pt; margin-right:5pt;    
     }
 
   }

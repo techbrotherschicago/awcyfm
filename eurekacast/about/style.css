@@ -255,17 +255,8 @@ div#saiss:hover{
 } 
 }
 
-@media screen and (max-width: 900px) {
-  .box_right {
-   display: block;margin-left: auto; margin-right:auto; float:none;
-  }
-      .box_left{
-  display: block;margin-left: auto; margin-right:auto; float:none;
-}
-  
-}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
    ul.topnav li.logo {float: none; text-align:center;}
   ul.topnav li.left {float: none;}
   ul.topnav li.right {float: none; text-align:center;}
