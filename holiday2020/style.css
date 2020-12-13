@@ -176,7 +176,7 @@ ul.topnav li.hol {float: left; }
      }
 
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 850px) {
     ul.topnav li.left {float: none;}
     ul.topnav li.right {float: none; text-align:center;}
     ul.topnav li.logo {float: none; text-align:center;}
