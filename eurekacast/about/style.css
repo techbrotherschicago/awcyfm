@@ -265,7 +265,7 @@ div#saiss:hover{
   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
    ul.topnav li.logo {float: none; text-align:center;}
   ul.topnav li.left {float: none;}
   ul.topnav li.right {float: none; text-align:center;}
