@@ -51,11 +51,11 @@ ul.topnav li.logo a{
 
 ul.topnav li.logo a b i{font-size: 20pt; font-style: 'Trebuchet MS', san-serif;}
 
-.link {
+a.link {
   font-weight: bold;
   text-decoration: none;
 }
-.link:hover:not(.active) {color: #2D3585;}
+a.link:hover:not(.active) {color: #2D3585;}
 
 img.icon {
   height: 25px;
