@@ -111,6 +111,16 @@ p.logo a b i{font-size: 50pt; font-style: Noto Sans, sans-serif;}
   text-decoration: none;
 }
 
+.message .saiss_logo {
+  font-size: 18pt;}
+
+
+.saiss_logo {
+  color: silver;
+  font-family: Papyrus, fantasy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
 .desc {
   color:silver;
 }
@@ -156,6 +166,10 @@ p.body_header{
   margin: 0;
 }
 p.show_d a.tb_logo {
+  font-size: 15pt;
+}
+
+p.show_d a.saiss_logo {
   font-size: 15pt;
 }
 
