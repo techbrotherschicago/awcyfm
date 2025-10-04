@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWCY? FM</title>
+    <script>
+        function abv(num){
+           var str = num.toString(10);
+          return(str.substring(0,str.indexOf(".")));
+        };
+        
+        function date(){
+          var date1 = Math.random()*100;
+          var date2 = Math.random()*1000;
+          var date3 = Math.random()*10000;
+        
+          document.getElementById("date").innerHTML = ("date: " + abv(date1) + " - " + abv(date2) + " - " + abv(date3));
+        
+        }
+        
+        function time(){
+          var time1 = Math.random()*100;
+          var time2 = Math.random()*100;
+          var time3 = Math.random()*100;  
+          document.getElementById("time").innerHTML = ("time: " + abv(time1) + ":" + abv(time2) + ":" + abv(time3));
+        }
+        
+        date();
+        setInterval('time()', 100);
+
+</script>
 </head>
 <body>
-    <p class="@awcyfm on Twitter">you really shouldn't be here</p>
-    <a href="https://www.awcyfm.com/eurekacast">you'll be safe here, lost traveler</a>
+    <p>you really should not be here</p>
+    
+    <p><b>NAME:</b> THE BODY PROJECT</p>
+    <p><b>TAGLINE:</b> “Audio suitable for people”</p>
+    
+    <p><b>DESCRIPTION:</b> A mix of atypical sounds and surreal entertainment: THE BODY PROJECT is an hour of ominous visions & fever-dream comedy.</p>
+    
+    <p id="date"></p>
+    <p id="time"></p>
+    <p id="news"></p>
+    
+    <p><a href="https://www.awcyfm.com/eurekacast/"> this link is NOT safe. under no circumstances should you click this link.</a></p>
 </body>
 </html>
