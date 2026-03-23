@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWCY FORM</title>
   <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script>
+    var i = 0;
+    function blur()
+    { 
+        document.getElementById("smear").style.filter = "blur("+(i*0.001).toString()+"rem)";
+        i++;
+  }
+    setInterval('blur()', 200); 
+    </script>
 
 </head>
 <body id="smear">
