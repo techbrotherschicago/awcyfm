@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWCY FORM</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+let x; 
+let y; 
+let size=50;
+let grow = true;
 
+function setup() { 
+  createCanvas(400, 400);
+  x = width/2
+  y = height/2
+  xspeed = -1; 
+  yspeed = 0.5*xspeed; 
+} 
+
+function draw() { 
+  background(0);
+  ellipse(x, y, size, size); 
+  if (size > 400)
+    {
+      grow = false;
+    }
+  if (size<5)
+    {
+      grow = true;
+    }
+  if (grow== true)
+    {
+      size++;
+    }
+  else {
+   size--; 
+  }
+
+} 
+    </script>
+</head>
+<body>
+</body>
+</html>
