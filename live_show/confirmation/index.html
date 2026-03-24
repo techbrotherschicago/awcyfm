@@ -13,11 +13,12 @@ let size=50;
 let grow = true;
 
 function setup() { 
-  createCanvas(400, 400);
-  x = width/2
-  y = height/2
-  xspeed = -1; 
-  yspeed = 0.5*xspeed; 
+  cnv=createCanvas(400, 400);
+  x = width/2;
+  y = height/2;
+  let newCanvasX = (windowWidth- 400)/2;
+  let newCanvasY = (windowHeight- 400)/2;
+  cnv.position(newCanvasX,newCanvasY)
 } 
 
 function draw() { 
