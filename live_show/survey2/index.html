@@ -1,1 +1,35 @@
-
+<form id="">
+      <image class="center" src="https://t4.ftcdn.net/jpg/04/85/09/55/360_F_485095547_SEFnUTEscD7auyTTBqmhd7hfRA99sKPP.jpg"></image>
+        <h2 id="">AWCY FM Audience Member Data Farming Scheme 2</h2>
+        <label>Name of audience member: <input type="text" name="name"></label><br><br>  
+      <p>DID YOU RECOGNIZE THE MAN ON THE STREET?
+</p>
+        <input type="radio" id="yes" name="man" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="man" value="no">
+        <label for="no">No</label><br><br>
+   <p>CAN YOU PLACE HIM? WOULD YOU FIND HIM AGAIN?
+</p>
+      <input type="radio" id="yes" name="place" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="place" value="no">
+        <label for="no">No</label><br><br>
+      <p>ARE YOU REAL? (BE HONEST)
+</p>
+      <input type="radio" id="yes" name="real" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="real" value="no">
+        <label for="no">No</label><br><br>
+            <p>HOW ARE YOU FEELING ABOUT THE PRESENTATION SO FAR?
+</p>
+   <input type="text" name="feeling"></label>
+<br><br>
+   <p id="">CHECK THIS BOX TO CONFIRM THAT YOU REALLY, TRULY UNDERSTAND THE IMPLICATIONS OF THIS PRESENTATION.
+</p>
+    <input type="checkbox" id="checkbox" name="implications" value="confirmation">
+  <label for="implications" id="turnred">I do</label>
+<br><br>
+    </form>
+    <button type="submit" class="btn" onclick="unSelect()">Submit</button>
+<div class="popup" id="popup"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Alert-Stop-Warning-Error_icon.svg/3840px-Alert-Stop-Warning-Error_icon.svg.png"> </img> <p> Hey, it looks like you didn't check the box about understanding the implications. If you don't understand yet, take a second and think about it. Think about everything that has been said. Try to understand.</p>
+    <button class="ok" onclick="closePopup()">ok</button></div>
