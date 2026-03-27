@@ -14,5 +14,3 @@ function closePopup() {
   popup.classList.remove("open-popup") 
   
 }
-
-//setInterval('unSelect()', 200); 
