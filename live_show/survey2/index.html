@@ -47,18 +47,15 @@
 
     
 <script>
-    let popup = document.getElementById("popup");
-    let checkbox = document.getElementById("checkbox");
-    let turnred = document.getElementById("turnred");
-    function unSelect() {
-        popup.classList.add("open-popup");
-        checkbox.checked=false;
-        turnred.classList.add("red-text");
-    }
+     function unSelect() {
+    document.getElementById("popup").classList.add("open-popup");
+    document.getElementById("checkbox").checked = false;
+    document.getElementById("turnred").classList.add("red-text");
+      }
+      
     function closePopup(){
-        popup.classList.remove("open-popup");
-}
- 
+    document.getElementById("popup").classList.remove("open-popup");     
+    }
 </script>  
     
 </head>
