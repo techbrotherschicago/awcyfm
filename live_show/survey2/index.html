@@ -6,7 +6,43 @@
     <title>AWCY FORM</title>
   <link rel="stylesheet" href="style.css">
 <style>
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Optional: Adjust width as needed */
+}
 
+.popup {
+  width: 50%;
+  border-radius: 6px;
+  position: absolute;
+  align: center;
+  top: 0;
+  transform: scale(0.1);
+  color: white;
+  background: #D21F3C;
+  text-align: center;
+  padding: 0 3vw 3vh;
+  visibility: hidden;
+}
+
+
+.open-popup{
+  visibility: visible;
+  transform: translate(24vw, 25vh) scale(1);
+  position: fixed;
+}
+
+.popup img {
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+}
+
+.red-text{
+  color: red;
+}
     
 </style>
 
